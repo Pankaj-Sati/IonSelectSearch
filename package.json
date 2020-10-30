@@ -1,0 +1,19 @@
+{
+  "name": "ion-select-search-lib",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^10.1.6",
+    "@angular/core": "^10.1.6"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
+  "main": "bundles/ion-select-search-lib.umd.js",
+  "module": "fesm2015/ion-select-search-lib.js",
+  "es2015": "fesm2015/ion-select-search-lib.js",
+  "esm2015": "esm2015/ion-select-search-lib.js",
+  "fesm2015": "fesm2015/ion-select-search-lib.js",
+  "typings": "ion-select-search-lib.d.ts",
+  "metadata": "ion-select-search-lib.metadata.json",
+  "sideEffects": false
+}
