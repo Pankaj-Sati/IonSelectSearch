@@ -4,7 +4,7 @@ This library was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Installation
 
-Run `npm i ion-select-search --save` to install this library. 
+Run `npm i ionic-select-search --save` to install this library. 
 
 ## Features
 
@@ -13,7 +13,7 @@ Run `npm i ion-select-search --save` to install this library.
 
 ## Usage
 
-After installing this package with `npm i ion-select-search --save`, import the IonSelectSearchLibModule in your main module(app.module.ts) or your lazy-loaded module.
+After installing this package with `npm i ionic-select-search --save`, import the IonSelectSearchLibModule in your main module(app.module.ts) or your lazy-loaded module.
 Eg: inside home.module.ts:
 
 `    import { IonSelectSearchLibModule } from 'ion-select-search';
