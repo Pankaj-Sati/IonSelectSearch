@@ -1,5 +1,5 @@
 # Ion Select Search
-Adds input search functionality to <ion-select> component
+Adds input search functionality to `<ion-select>` component
 This library was generated with [Angular CLI](https://github.com/angular/angular-cli) 
 
 ## Installation
@@ -9,7 +9,7 @@ Run `npm i ionic-select-search --save` to install this library.
 ## Features
 
  1. Adds an input element in ion-select for easy searching among the list hundreds of records
- 2. Just add a directive `idlDefault` to existing <ion-select> to enable searching
+ 2. Just add a directive `idlDefault` to existing `<ion-select>` to enable searching
 
 ## Usage
 
@@ -27,15 +27,16 @@ Eg: inside home.module.ts:
     })
     export class HomeModule { }`
 
-## Enable searching in <ion-select>
+## Enable searching in `<ion-select>`
 
-Use the directive `idlDefault` inside an <ion-select>
+Use the directive `idlDefault` inside an `<ion-select>`
 
 Note:`To avoid loading all the emojies again and again, don't use *ngIf to show/hide the emoji picker. Instead, set the height of cantainer to 0px for hiding the component.`
 
 Example: 
 Inside your .html file
-```html<ion-select idlDefault [(ngModel)]="myCategory">
+```html 
+<ion-select idlDefault [(ngModel)]="myCategory">
     <ion-select-option value="1">Fruits</ion-select-option>
     <ion-select-option value="2">Vegies</ion-select-option>
     <ion-select-option value="3">Drinks</ion-select-option>
