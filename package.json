@@ -1,6 +1,6 @@
 {
   "name": "ionic-select-search",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Pankaj Sati",
   "peerDependencies": {
     "@angular/common": "^10.1.6",
