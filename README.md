@@ -31,7 +31,7 @@ Eg: inside home.module.ts:
 
 Use the directive `idlDefault` inside an `<ion-select>`
 
-Note:`To avoid loading all the emojies again and again, don't use *ngIf to show/hide the emoji picker. Instead, set the height of cantainer to 0px for hiding the component.`
+Note:`Currently interface are not supported. Work on "popover" and "action-sheet" interface is in progress. I will update the documents once done.`
 
 Example: 
 Inside your .html file
